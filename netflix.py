@@ -7,14 +7,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
-import urllib.request
 import requests
-import os.path
 import random
 import string
 import time
 import os
-import re
 
 class GET:
 	@staticmethod
@@ -157,9 +154,9 @@ def create(numAccounts):
 def main():
 	print("""
 		WELCOME TO NETFLIX ACCOUNT CREATOR BY @THEFLASH2K
-			[+] How many accounts do you want to create?
+		[+] How many accounts do you want to create?
 		""")
-	numAcc = int(input("> "))
+	numAcc = int(input("\t\t> "))
 	print("Creating {} accounts...".format(numAcc))
 	create(numAcc)
 
