@@ -4,7 +4,7 @@ In order to exploit all of these and create as many accounts as I can, i wrote a
 Works on both linux and windows.
 
 NOTE:
-THIS WAS PATCHED on August 25th, 2020
+THIS WAS PATCHED on August 25th, 2020 [IT DOESN'T WORK ANYMORE :(]
 
 [+] Dependencies:
 Selenium ,Chrome webdriver ,Beautifulsoup4
